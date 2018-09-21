@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>La casa de las Flores: Floreria</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+
+
+</head>
+
+<body onload="funcionesPrincipales()">
+	<!-- HEADER -->
+	<header>
+		<!-- top Header -->
+		<div id="top-header">
+			<div class="container">
+				<div class="pull-left">
+					<span>Bienvenido a La casa de las Flores!</span>
+				</div>
+			</div>
+		</div>
+		<!-- /top Header -->
+
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="#">
+							<img src="./img/logo.png" alt="">
+						</a>
+					</div>
+					<!-- /Logo -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user-o"></i>
+								</div>
+								<strong class="text-uppercase">Mi cuenta <i class="fa fa-caret-down"></i></strong>
+							</div>
+							<a href="#" class="text-uppercase">Inicia</a> / <a href="#" class="text-uppercase">Join</a>
+							<ul class="custom-menu">
+								<li><a href="#"><i class="fa fa-user-o"></i> Mi cuenta</a></li>
+								<li><a href="#"><i class="fa fa-check"></i> Checkout</a></li>
+								<li><a href="#"><i class="fa fa-unlock-alt"></i> Inicia sesion</a></li>
+								<li><a href="#"><i class="fa fa-user-plus"></i> Crear una cuenta</a></li>
+							</ul>
+						</li>
+						<!-- /Account -->
+
+						<!-- Cart -->
+						<div id="carrito" style="float:right;margin-left:25px;margin-right:35px;"></div>
+						<!-- /Cart -->
+
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<div id="navigation">
+		<!-- container -->
+		<div class="container">
+			<div id="responsive-nav">
+				<!-- category nav -->
+				<div class="category-nav show-on-click">
+					<span class="category-header">Categoria <i class="fa fa-list"></i></span>
+					<ul class="category-list" id="presentaciones">
+				</div>
+				<!-- /category nav -->
+
+				<!-- menu nav -->
+				<div class="menu-nav">
+					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+					<ul class="menu-list">
+						<li><a href="#">Home</a></li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Sobre Nosotros</a></li>
+						<li class="dropdown mega-dropdown full-width"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Contacto <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="./img/banner06.jpg" alt="">
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Desarrolladores</h3>
+												</div>
+											</a>
+											<hr>
+										</div>
+										<ul class="list-links">
+
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="./img/banner07.jpg" alt="">
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Buscanos en nuestras redes</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li><a href="#">facebook</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="./img/banner08.jpg" alt="">
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Telefono</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li><a href="#">7151446945</a></li>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Pages <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="products.html">Productos</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- menu nav -->
+			</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NAVIGATION -->
+
+	<!-- HOME -->
+	<div id="home">
+		<!-- container -->
+		<div class="container">
+			<!-- home wrap -->
+			<div class="home-wrap">
+				<!-- home slick -->
+				<div id="home-slick">
+					<!-- banner -->
+					<div class="banner banner-1">
+						<img src="./img/flores1.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h1>Cajas de flores</h1>
+							<h3 class="white-color font-weak">20% descuento</h3>
+							<button class="primary-btn">Compra ahora</button>
+						</div>
+					</div>
+					<!-- /banner -->
+
+					<!-- banner -->
+					<div class="banner banner-1">
+						<img src="./img/banner02.jpg" alt="">
+						<div class="banner-caption">
+							<h1 class="primary-color">Ramos para novia<br><span class="white-color font-weak">40% descuento</span></h1>
+							<button class="primary-btn">Compra ahora</button>
+						</div>
+					</div>
+					<!-- /banner -->
+
+					<!-- banner -->
+					<div class="banner banner-1">
+						<img src="./img/banner03.jpg" alt="">
+						<div class="banner-caption">
+							<h1 class="white-color">Nuevos Poductos <span>Colecciones</span></h1>
+							<button class="primary-btn">Compra ahoraw</button>
+						</div>
+					</div>
+					<!-- /banner -->
+				</div>
+				<!-- /home slick -->
+			</div>
+			<!-- /home wrap -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /HOME -->
+
+	<!-- section -->
+	<div class="section" id="ofertas">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- banner -->
+				<div class="col-md-4 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img src="./img/banner10.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Nueva Coleccion</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+
+				<!-- banner -->
+				<div class="col-md-4 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img src="./img/banner11.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Nuevos Bouquets</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+
+				<!-- banner -->
+				<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
+					<a class="banner banner-1" href="#">
+						<img src="./img/banner12.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Nuevos Maxiramos</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- FOOTER -->
+	<footer class="page-footer font-small pt-4" style="background-color: rgba(213, 216, 220); ">
+
+          <!-- Footer Links -->
+          <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase text-white font-weight-light">Direccion</h5>
+                <p class="text-white font-weight-light">H. Colegio Militar 91-ACol. Chapultepec Sur Morelia, Mich.</p>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none pb-3">
+
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h6 class="text-uppercase text-white font-weight-light">Metodos de pago</h6>
+
+                <ul class="list-unstyled">
+                  <li>
+                  <a class="nav-link" href="#"><img src="img/paypal.png" alt="Logo" style="width:80px;"></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><img src="img/oxxo.png" alt="Logo" style="width:74px;"></a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h6 class="text-uppercase text-white font-weight-light">Redes Sociales</h6>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white" href="#!"><img src="img/facebook.png" alt="Logo" style="width:30px;"> Facebook</a>
+                  </li>
+                  <li><br></li>
+                  <li>
+                    <a class="text-white" href="#!"><img src="img/twitter.png" alt="Logo" style="width:30px;"> Twitter</a>
+                  </li>
+                  <li><br></li>
+                  <li>
+                    <a class="text-white" href="#!"><img src="img/instagram.png" alt="Logo" style="width:30px;"> Instagram</a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a class="text-white" href="#"> Sistemas </a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<div id="capa-ticket" style="display: none;"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

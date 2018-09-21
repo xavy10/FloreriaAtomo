@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>La casa de las Flores: Floreria: Ramos</title>
+
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- top Header -->
+		<div id="top-header">
+			<div class="container">
+				<div class="pull-left">
+					<span>Bienvenido a La casa de las Flores!</span>
+				</div>
+			</div>
+		</div>
+		<!-- /top Header -->
+
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="#">
+							<img src="./img/logo.png" alt="">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Search -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user-o"></i>
+								</div>
+								<strong class="text-uppercase">Mi cuenta <i class="fa fa-caret-down"></i></strong>
+							</div>
+							<a href="#" class="text-uppercase">Inicia</a> / <a href="#" class="text-uppercase">Join</a>
+							<ul class="custom-menu">
+								<li><a href="#"><i class="fa fa-user-o"></i> Mi cuenta</a></li>
+								<li><a href="#"><i class="fa fa-check"></i> Checkout</a></li>
+								<li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li>
+								<li><a href="#"><i class="fa fa-user-plus"></i> Crear cuenta</a></li>
+							</ul>
+						</li>
+						<!-- /Account -->
+
+						<!-- Cart -->
+						<li class="header-cart dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="qty">3</span>
+								</div>
+								<strong class="text-uppercase">Mi carrito:</strong>
+								<br>
+								<span>35.20$</span>
+							</a>
+							<div class="custom-menu">
+								<div id="shopping-cart">
+									<div class="shopping-cart-list">
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/thumb-product01.jpg" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">$55.00 <span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Y-1 YOKITO</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/thumb-product01.jpg" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">AL-7 YOKITO ROSA</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+									</div>
+									<div class="shopping-cart-btns">
+										<button class="main-btn">View Cart</button>
+										<button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- /Cart -->
+
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<div id="navigation">
+		<!-- container -->
+		<div class="container">
+			<div id="responsive-nav">
+				<!-- category nav -->
+				<div class="category-nav show-on-click">
+					<span class="category-header">Categoria <i class="fa fa-list"></i></span>
+					<ul class="category-list">
+						<li class="dropdown side-dropdown">
+							<a href="">Maxiramos <i class="fa fa-angle-right"></i></a>
+							<a href="">Ramos <i class="fa fa-angle-right"></i></a>
+							<a href="">Cajas <i class="fa fa-angle-right"></i></a>
+							<a href="">Bouquets<i class="fa fa-angle-right"></i></a>
+							<a href="">Arreglos de mesa<i class="fa fa-angle-right"></i></a>
+							<a href="">Arreglos de cristal<i class="fa fa-angle-right"></i></a>
+						</li>
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- /category nav -->
+
+				<!-- menu nav -->
+				<div class="menu-nav">
+					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+					<ul class="menu-list">
+						<li><a href="#">Home</a></li>
+						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Sobre Nosotros</a></li>
+						<li class="dropdown mega-dropdown full-width"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Contacto <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="./img/banner06.jpg" alt="">
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Desarrolladores</h3>
+												</div>
+											</a>
+											<hr>
+										</div>
+										<ul class="list-links">
+											
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="./img/banner07.jpg" alt="">
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Buscanos en nuestras redes</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li><a href="#">facebook</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="./img/banner08.jpg" alt="">
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Telefono</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li><a href="#">7151446945</a></li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Pages <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="products.html">Productos</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- menu nav -->
+			</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NAVIGATION -->
+
+	<!-- BREADCRUMB -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li class="active">Products</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /BREADCRUMB -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- ASIDE -->
+				<div id="aside" class="col-md-3">
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Buscar ramo por:</h3>
+						<ul class="filter-list">
+							<li><a href="#">Tulipan</a></li><br>
+							<li><a href="#">Rosas</a></li><br>
+							<li><a href="#">Girasoles</a></li><br>
+							<li><a href="#">Gerbera</a></li><br>
+						</ul>
+
+						<button class="primary-btn">Borrar filtros</button>
+					</div>
+					<!-- /aside widget -->
+
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filtrado por precio</h3>
+						<div id="price-slider"></div>
+					</div>
+					<!-- aside widget -->
+				</div>
+				<!-- /ASIDE -->
+
+				<!-- MAIN -->
+				<div id="main" class="col-md-9">
+					<!-- store top filter -->
+					<div class="store-filter clearfix">
+						<div class="pull-left">
+							<div class="row-filter">
+								<a href="#"><i class="fa fa-th-large"></i></a>
+								<a href="#" class="active"><i class="fa fa-bars"></i></a>
+							</div>
+							<div class="sort-filter">
+								<span class="text-uppercase">Ordenar por:</span>
+								<select class="input">
+										<option value="0">ordenar por</option>
+										<option value="0">Lo mas nuevo</option>
+										<option value="0">Precio (de bajo a alto)</option>
+										<option value="0">Precio (de alto a bajo)</option>
+									</select>
+								<a href="#" class="main-btn icon-btn"><i class="fa fa-arrow-down"></i></a>
+							</div>
+						</div>
+						<div class="pull-right">
+							<div class="page-filter">
+								<span class="text-uppercase">Show:</span>
+								<select class="input">
+										<option value="0">10</option>
+										<option value="1">20</option>
+										<option value="2">30</option>
+									</select>
+							</div>
+							<ul class="store-pages">
+								<li><span class="text-uppercase">Page:</span></li>
+								<li class="active">1</li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /store top filter -->
+
+					<!-- STORE -->
+					<div id="store">
+						<!-- row -->
+						<div class="row">
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product01.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$50.00</h3>
+										<h2 class="product-name">Y-1 YOKITO</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product2.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$160.00</h3>
+										<h2 class="product-name">AL-7 YOKITO ROSA</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product3.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$210.00</h3>
+										<h2 class="product-name">R-3 RAMO BELLE</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-md visible-lg"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product4.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$75.00</h3>
+										<h2 class="product-name">AL-8 SUNFLOWERO</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product5.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$180.00</h3>
+										<h2 class="product-name">Y-2 YOKO CLÁSICO</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product6.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$230.00</h3>
+										<h2 class="product-name">RL-2 YOKO ROSE</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-md visible-lg visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product7.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$180.00</h3>
+										<h2 class="product-name">Y-7 YOKO GLAM</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product8.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$260.00</h3>
+										<h2 class="product-name">AL-9 RAMO SERENITY</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<div class="clearfix visible-sm visible-xs"></div>
+
+							<!-- Product Single -->
+							<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i>Vista rapida</button>
+										<img src="./img/product9.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<h3 class="product-price">$210.00</h3>
+										<h2 class="product-name">JK-4 YOKO BEAUTY</a></h2>
+										<div class="product-btns">
+											<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+											<button class="primary-btn add-to-cart"><a href="productos/producto01.html"></i>Ver producto</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /STORE -->
+				</div>
+				<!-- /MAIN -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<footer class="page-footer font-small pt-4" style="background-color: rgba(213, 216, 220); ">
+
+          <!-- Footer Links -->
+          <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase text-white font-weight-light">Direccion</h5>
+                <p class="text-white font-weight-light">H. Colegio Militar 91-ACol. Chapultepec Sur Morelia, Mich.</p>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none pb-3">
+
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h6 class="text-uppercase text-white font-weight-light">Metodos de pago</h6>
+
+                <ul class="list-unstyled">
+                  <li>
+                  <a class="nav-link" href="#"><img src="img/paypal.png" alt="Logo" style="width:80px;"></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><img src="img/oxxo.png" alt="Logo" style="width:74px;"></a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h6 class="text-uppercase text-white font-weight-light">Redes Sociales</h6>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white" href="#!"><img src="img/facebook.png" alt="Logo" style="width:30px;"> Facebook</a>
+                  </li>
+                  <li><br></li>
+                  <li>
+                    <a class="text-white" href="#!"><img src="img/twitter.png" alt="Logo" style="width:30px;"> Twitter</a>
+                  </li>
+                  <li><br></li>
+                  <li>
+                    <a class="text-white" href="#!"><img src="img/instagram.png" alt="Logo" style="width:30px;"> Instagram</a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a class="text-white" href="#"> Sistemas </a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

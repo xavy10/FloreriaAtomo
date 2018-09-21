@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="container-fluid h-100">
+    <div class="row h-100">
+      <aside class="col-12 col-md-2 p-0 bg-dark ">
+        <nav class="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start py-2">
+          <div class="collapse navbar-collapse ">
+            <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link pl-0 text-nowrap" href="index.html"><img src="../assets/logow.png" alt="Logo" style="width:100px;"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="producto.html"><img src="../assets/icq-flower-logo.png" alt="Logo" style="width:20px;"><span class="d-none d-md-inline"> Registro productos</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-0" href="pedido.html"><img src="../assets/box.png" alt="Logo" style="width:20px;"><span class="d-none d-md-inline"> Pedidos</span></a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </aside>
+      <main class="col bg-faded py-3" style=" overflow: auto;">
+        <h2>Pedidos</h2>
+        <label> Folio</label>
+        <br>
+        <form id="form-folio" action="javascript:buscar_folio()" method="post">
+          <div class="input-group ">
+            <input class="form-control" style="padding: 8px;box-shadow: 1px 6px 7px #888888;" id="folio" placeholder="Folio" required="">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-primary" style="padding: 8px;box-shadow: 0px 6px 7px #888888;">Busca</button>
+            </div>
+          </div>
+        </form>
+<br><br>
+        <div class="container">
+          <table style="width: 100%" class="border-top border-bottom text-center ">
+            <tbody><tr>
+              <td><h5 class="font-weight-light">Folio</h5></td>
+              <td><h5 class="font-weight-light">Cliente</h5></td>
+              <td><h5 class="font-weight-light">Producto</h5></td>
+              <td><h5 class="font-weight-light">Estatus</h5></td>
+              <td><h5 class="font-weight-light">Detalles</h5></td>
+            </tr>
+
+          </tbody></table>
+          <br>
+
+
+
+
+  <div class="container" id="contenido">
+    <div class="rounded p-3 mb-4 " style="padding: 4px;box-shadow: 3px 2px 7px #888888;">
+    <table style="width: 100%; margin-left:2%;" class="text-center">
+      <tbody><tr>
+          <td><h6 class="font-weight-light text-left">3214234</h6></td>
+        <td><h6 class="font-weight-light text-left">Ramo coke</h6></td>
+        <td><h6 class="font-weight-light text-left">Procesando</h6></td>
+        <td></td>
+  <td></td>
+        <td>
+          <form class="" action="javascript:estatus()" method="post">
+             <select class="form-control form-control-sm" id="estatus" onchange="alert('You are clicking on me');">
+               <option>Estatus</option>
+               <option>Estatus</option>
+               <option>Estatus</option>
+              <option selected="">Sdfgfg</option>
+        <option>Estatus</option>
+
+    </select>
+    </form></td>
+  <td><input class="btn btn-info" type="button" value="Ver mas" data-toggle="modal" data-target="#SacaModal"></td>
+      </tr>
+    </tbody></table>
+    </div>
+
+
+    <div class="rounded p-3 mb-4 " style="padding: 4px;box-shadow: 3px 2px 7px #888888;">
+          <div class="container">
+                            <form action="index.html" method="post">
+<div class="row">
+
+                            <div class="col"><h6 class="font-weight-light text-left">4845JDDD8</h6></div>
+                            <div class="col"><h6 class="font-weight-light text-left">Astroboy</h6></div>
+                            <div class="col"><h6 class="font-weight-light text-left">Prueba 7:06</h6></div>
+
+
+
+</div>
+                        </form>
+                        </div>
+</div>
+
+
+  </div>
+  </div>
+
+
+  </main>
+  </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="SacaModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">Detalles</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">×</span>
+</button>
+        </div>
+        <div class="modal-body" id="modifica">
+
+          <label>Linea 1</label><br>
+          <label>Linea 1</label><br>
+          <label>Linea 1</label><br>
+</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
