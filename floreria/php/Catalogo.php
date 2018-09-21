@@ -21,6 +21,7 @@
     $user="floreria";
     $password="1234";
     $ruta="productos";
+    //esto n va
       $res = "
       <div class='section'>
         <!-- container -->
